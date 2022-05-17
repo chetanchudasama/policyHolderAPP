@@ -1,0 +1,73 @@
+/*general css*/
+html{overflow: auto; font-size: 62.5%; height: 100%; }
+body{overflow: hidden;}
+body, .application{      
+    font-size: 1.4rem;
+    line-height: 2rem;
+    height: 100%;
+    font-family:"Noto Sans",Avenir,Helvetica,Arial,sans-serif !important
+}
+.title,.display-1, .headline{font-family: Noto Sans,Avenir,Helvetica,Arial,sans-serif!important;}
+/*Aling*/
+.text-center{text-align: center !important;}
+.text-left{text-align: left !important;}
+.text-right{text-align: right !important;}
+
+/*Float*/
+.float-left{float: left !important;}
+.float-right{float: right !important;}
+
+
+/*Font Weight*/
+.font-weight-thin{font-weight: 100 !important;}
+.font-weight-light{font-weight: 300 !important;}
+.font-weight-regular{font-weight: 400 !important;}
+.font-weight-medium{font-weight: 500 !important;}
+.font-weight-bold{font-weight: 700 !important;}
+.font-weight-black{font-weight: 900 !important;}
+.font-italic{font-style: italic !important;}
+
+/*img*/
+.img-responsive{ max-width: 100% !important;}
+.img-circle{border-radius: 50% !important;}
+
+/*Vue-bar Scrollbar section*/
+.vb > .vb-dragger { z-index: 1; width: 6px; right: 0; }
+.vb > .vb-dragger > .vb-dragger-styler {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate3d(0,0,0,0);
+    transform: rotate3d(0,0,0,0);
+    -webkit-transition:
+        background-color 100ms ease-out,
+        margin 100ms ease-out,
+        height 100ms ease-out;
+    transition:
+        background-color 100ms ease-out,
+        margin 100ms ease-out,
+        height 100ms ease-out;
+    background-color: rgb(199, 199, 199);
+    margin: 5px 0px 5px 0;
+    border-radius: 20px;
+    height: calc(100% - 10px);
+    display: block;
+}
+.vb.vb-scrolling-phantom > .vb-dragger > .vb-dragger-styler {background-color: rgb(199, 199, 199);}
+.vb > .vb-dragger:hover > .vb-dragger-styler {background-color: rgb(199, 199, 199);}
+.vb.vb-dragging > .vb-dragger > .vb-dragger-styler {background-color: rgb(199, 199, 199);}
+.vb.vb-dragging-phantom > .vb-dragger > .vb-dragger-styler {background-color: rgb(199, 199, 199);
+}
+/*Scrollbar section*/
+
+.md-icon{
+    font-size: 22px !important;
+}
+.hide{display: none}
+.required label::after {
+    content: "*";
+}
+
+.insuer-portal .v-menu__content .v-select-list .theme--light.v-list .v-list__group__header:hover, .insuer-portal .v-menu__content .v-select-list .theme--light.v-list .v-list__tile--highlighted, .insuer-portal .v-menu__content .v-select-list .theme--light.v-list .v-list__tile--link:hover{
+    background: rgba(0,0,0,.12);
+}
+.break-text{word-break: break-all;}

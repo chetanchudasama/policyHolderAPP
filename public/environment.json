@@ -1,0 +1,12 @@
+{
+    "EditHostUri": "https://localhost:8080",
+    "PolicyHolderApiBaseUrl": "https://simplifi-customerportalapi-dev.azurewebsites.net",
+    "LocateFindApi": "https://api.addressy.com/Capture/Interactive/Find/v1.00/json3.ws",
+    "LocateRetrieveApi": "https://api.addressy.com/Capture/Interactive/Retrieve/v1.00/json3.ws",
+    "LogoSize": 5120,
+    "DateTimeFormat": "DD/MM/YYYY HH:mm",
+    "DateFormat": "DD/MM/YYYY",
+    "PolicyHolderAppBaseLogoUrl": "https://dvcallcentrespasto.blob.core.windows.net/content/default-he-policyholder-portal.png",
+    "GoogleMapsJavascriptAPIKey": "AIzaSyCZfNVs3BqD903NehaTDUKJlkd5mqSPz64",
+    "GoogleCaptchaVerificationSiteKey": "6LdsGPMbAAAAALbV5_nf9BqE8TSjWaMTN4LuArkv"
+}
